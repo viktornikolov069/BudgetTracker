@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/vinikolo/AndroidStudioProjects/BudgetTracker/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.212" />
+        <entry key="..\:/Users/vinikolo/AndroidStudioProjects/BudgetTracker/app/src/main/res/drawable/amount_selector.xml" value="0.1975" />
+        <entry key="..\:/Users/vinikolo/AndroidStudioProjects/BudgetTracker/app/src/main/res/drawable/close_background.xml" value="0.191" />
+        <entry key="..\:/Users/vinikolo/AndroidStudioProjects/BudgetTracker/app/src/main/res/drawable/description_selector.xml" value="0.1975" />
+        <entry key="..\:/Users/vinikolo/AndroidStudioProjects/BudgetTracker/app/src/main/res/drawable/ic_add.xml" value="0.212" />
+        <entry key="..\:/Users/vinikolo/AndroidStudioProjects/BudgetTracker/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.212" />
+        <entry key="..\:/Users/vinikolo/AndroidStudioProjects/BudgetTracker/app/src/main/res/drawable/ic_description._focused.xml" value="0.1975" />
+        <entry key="..\:/Users/vinikolo/AndroidStudioProjects/BudgetTracker/app/src/main/res/drawable/ic_description_focused.xml" value="0.1975" />
+        <entry key="..\:/Users/vinikolo/AndroidStudioProjects/BudgetTracker/app/src/main/res/drawable/ic_label.xml" value="0.1975" />
+        <entry key="..\:/Users/vinikolo/AndroidStudioProjects/BudgetTracker/app/src/main/res/drawable/ic_label_focused.xml" value="0.1975" />
+        <entry key="..\:/Users/vinikolo/AndroidStudioProjects/BudgetTracker/app/src/main/res/drawable/ic_launcher_background.xml" value="0.212" />
+        <entry key="..\:/Users/vinikolo/AndroidStudioProjects/BudgetTracker/app/src/main/res/drawable/ic_money.xml" value="0.1975" />
+        <entry key="..\:/Users/vinikolo/AndroidStudioProjects/BudgetTracker/app/src/main/res/drawable/ic_money_focused.xml" value="0.1975" />
+        <entry key="..\:/Users/vinikolo/AndroidStudioProjects/BudgetTracker/app/src/main/res/drawable/label_selector.xml" value="0.1975" />
+        <entry key="..\:/Users/vinikolo/AndroidStudioProjects/BudgetTracker/app/src/main/res/layout/activity_add_transaction.xml" value="0.3055555555555556" />
+        <entry key="..\:/Users/vinikolo/AndroidStudioProjects/BudgetTracker/app/src/main/res/layout/activity_detailed.xml" value="0.3712962962962963" />
+        <entry key="..\:/Users/vinikolo/AndroidStudioProjects/BudgetTracker/app/src/main/res/layout/activity_main.xml" value="0.31574074074074077" />
+        <entry key="..\:/Users/vinikolo/AndroidStudioProjects/BudgetTracker/app/src/main/res/layout/transaction_layout.xml" value="0.38235294117647056" />
+        <entry key="..\:/Users/vinikolo/AndroidStudioProjects/BudgetTracker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.137" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
