@@ -10,12 +10,12 @@ The following **functionality** is completed:
 
 * [x] User can add new rows of information on their budget (Label, Amount, Description) by pressing the add button.
 * [x] User can modify existing rows.
-* [x] User can delete a row by swiping to the right and also is able to undo the delete by pressing the UNDO button that is shown temporarily in a pop up message.
-* [x] The total balance, budget and expense are modified immediately after creating a new row.
-* [x] Error messages are shown if the label or amount are left empty while creating a new row or modifying and existing one.
-* [x] The user can distinguish the expense from the budget based on the two main colors (green for budget and red for expense)
+* [x] User can delete a row by swiping to the right and also is able to undo the delete by pressing the **UNDO** button that is shown temporarily in a pop up message.
+* [x] The **total balance**, **budget** and **expense** are modified immediately after creating a new row.
+* [x] Error messages are shown if the **label** or **amount** are left empty while creating a new row or modifying an existing one.
+* [x] The user can distinguish the **expense** from the **budget** based on the two main colors (green for budget and red for expense)
 * [x] All user information is saved in a ROOM database.
-
+* [x] RecyclerView is optimised with DiffUtil
 
 **TO DO**
 * [ ] There are no todos for now.
