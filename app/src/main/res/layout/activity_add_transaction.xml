@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".ui.AddTransactionActivity">
 
+    <!-- Exit Button -->
     <ImageButton
         android:id="@+id/btnClose"
         android:layout_width="34dp"
@@ -25,6 +26,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <!-- LABEL -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tilLabelLayout"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -49,6 +51,7 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
+        <!-- AMOUNT -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tilAmountLayout"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -72,6 +75,7 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
+        <!-- DESCRIPTION -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tilDescriptionLayout"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"

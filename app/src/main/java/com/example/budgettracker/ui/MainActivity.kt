@@ -80,8 +80,9 @@ class MainActivity : AppCompatActivity() {
 
     // Snackbar is shown temporarily after a row is deleted and provides an UNDO option
     private fun showSnackbar() {
-        val snackbar = Snackbar.make(binding.coordLayoutMain, "Transaction deleted!", Snackbar.LENGTH_LONG)
-        snackbar.setAction("Undo") {
+        val snackbar = Snackbar.make(binding.coordLayoutMain,
+            getString(R.string.deleted_transaction), Snackbar.LENGTH_LONG)
+        snackbar.setAction(getString(R.string.undo)) {
             undoDelete()
         }
             .setActionTextColor(ContextCompat.getColor(this, R.color.red))
@@ -123,9 +124,9 @@ class MainActivity : AppCompatActivity() {
         val budgetAmount = transactions.filter { it.amount > 0 }.sumOf { it.amount }
         val expenseAmount = totalAmount - budgetAmount
 
-        binding.tvBalance.text = "$ %.2f".format(totalAmount)
-        binding.tvBudget.text = "$ %.2f".format(budgetAmount)
-        binding.tvExpense.text = "$ %.2f".format(expenseAmount)
+        binding.tvBalance.text = getString(R.string.two_decimal_format).format(totalAmount)
+        binding.tvBudget.text = getString(R.string.two_decimal_format).format(budgetAmount)
+        binding.tvExpense.text = getString(R.string.two_decimal_format).format(expenseAmount)
     }
 
     /* */

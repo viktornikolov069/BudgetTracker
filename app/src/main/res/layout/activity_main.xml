@@ -11,6 +11,7 @@
         android:layout_height="match_parent"
         tools:context=".ui.MainActivity">
 
+        <!-- TOTAL BALANCE -->
         <LinearLayout
             android:id="@+id/llBalanceLayout"
             android:layout_width="match_parent"
@@ -38,6 +39,7 @@
 
         </LinearLayout>
 
+        <!-- BUDGET AND EXPENSE -->
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cvDashboard"
             android:layout_width="match_parent"

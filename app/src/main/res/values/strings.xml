@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">BudgetTracker</string>
+    <string name="error_empty_amount">Please enter a valid amount</string>
+    <string name="error_empty_label">Please enter a valid label</string>
+    <string name="error_label_amount_empty">Label and Amount cannot be Empty</string>
+    <string name="deleted_transaction">Transaction deleted!</string>
+    <string name="undo">Undo</string>
+    <string name="two_decimal_format">$ %.2f</string>
 </resources>

@@ -7,6 +7,7 @@ import android.view.View
 import android.view.inputmethod.InputMethodManager
 import androidx.core.widget.addTextChangedListener
 import androidx.room.Room
+import com.example.budgettracker.R
 import com.example.budgettracker.databinding.ActivityDetailedBinding
 import com.example.budgettracker.db.AppDatabase
 import com.example.budgettracker.db.Transaction
@@ -83,16 +84,12 @@ class DetailedActivity : AppCompatActivity() {
                     appDB.transactionDao().update(transaction)
                     finish()
                 } else if (label.isEmpty()) {
-                    tilLabelLayout.error = "Please enter a valid label"
-                    Snackbar.make(
-                        it,
-                        "Label and Amount cannot be Empty", Snackbar.LENGTH_LONG
+                    tilLabelLayout.error = getString(R.string.error_empty_label)
+                    Snackbar.make(it, getString(R.string.error_label_amount_empty), Snackbar.LENGTH_LONG
                     ).show()
                 } else if (amount == null) {
-                    tilAmountLayout.error = "Please enter a valid amount"
-                    Snackbar.make(
-                        it,
-                        "Label and Amount cannot be Empty", Snackbar.LENGTH_LONG
+                    tilAmountLayout.error = getString(R.string.error_empty_amount)
+                    Snackbar.make(it, getString(R.string.error_label_amount_empty), Snackbar.LENGTH_LONG
                     ).show()
                 }
             }
